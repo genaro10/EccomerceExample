@@ -4,10 +4,11 @@ import React from 'react'
 
 const styles = makeStyles({
     body:{
-        margin:"20px"
+        margin:"20px",
     },
     imagen:{
-        width:"75%"
+        width:"200px",
+        height:"200px"
     },
     descripcion:{
         textAlign:"left",
@@ -45,7 +46,8 @@ const styles = makeStyles({
     },
     watch:{
         height:"28px",
-        color:"blue"
+        color:"blue",
+        border:"1px solid blue"
     },
     promedio:{
         textAlign:"left"
@@ -68,7 +70,7 @@ function CardVenta(props: { src: string; descripcion: string; precio: number; of
             <p className={estilos.stock}>{stock}</p>
             <div className={estilos.bodyEstrellas}>
                 <Box component="fieldset" mb={3} borderColor="transparent">
-                    <Rating name="pristine" value={null} />
+                    <Rating size='small' style={{marginTop:"3px"}} name="pristine" value={null} />
                 </Box>
                 <p className={estilos.promedio}>{promedio}</p>
                 <Button className={estilos.watch}>watch</Button>

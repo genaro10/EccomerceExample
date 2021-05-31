@@ -1,0 +1,74 @@
+[
+    {
+        "src":"https://www.electromisiones.com.ar/13565-large_default/impresora_multifuncion_epson_ecotank_l3110.jpg",
+        "descripcion":"Impresora increible a la hora de imprimir buenas opciones",
+        "precio":500,
+        "off":15,
+        "stock":"Disponible en Palermo y Recoleta",
+        "promedio":4.03
+    },
+    {
+        "src":"https://img.global.news.samsung.com/mx/wp-content/uploads/2019/01/Notebook-9-Pro-3.jpg",
+        "descripcion":"MAC BOOK PRO increible con muchisima velocidad de procesamiento",
+        "precio":15325,
+        "off":10,
+        "stock":"Disponible en todos los locales",
+        "promedio":4.89
+    },
+    {
+        "src":"https://www.computershopping.com.ar/Images/Productos/JBLFLIP5BLKAM_Foto3.jpg",
+        "descripcion":"Parlante JBL con gran sonido y disponibilidad de ambiente",
+        "precio":250,
+        "off":0,
+        "stock":"Disponible en Palermo",
+        "promedio":4.09
+    },
+    {
+        "src":"https://www.profesionalreview.com/wp-content/uploads/2020/06/cable-usb.jpg",
+        "descripcion":"Cable USB para poder conectar tu celular a la computadora y cualquier dispositivo",
+        "precio":85,
+        "off":5,
+        "stock":"Disponible en Palermo y Recoleta",
+        "promedio":2.05
+    },
+    {
+        "src":"https://http2.mlstatic.com/D_NQ_NP_2X_738955-MLA40252400386_122019-V.webp",
+        "descripcion":"Auriculares gamer increibles",
+        "precio":250,
+        "off":5,
+        "stock":"Disponible en Palermo y belgrano",
+        "promedio":4.85
+    },
+    {
+        "src":"https://http2.mlstatic.com/D_NQ_NP_621532-MLA41841882636_052020-O.jpg",
+        "descripcion":"Teclado gamer increible para la utilizacion de todos los juegos que quieras",
+        "precio":1500,
+        "off":10,
+        "stock":"Disponible en Palermo y Recoleta",
+        "promedio":4
+    },
+    {
+        "src":"https://cuotas.tecnolife.com.ar/wp-content/uploads/2020/12/01-63.jpg",
+        "descripcion":"Mouse logitech de ultima generacion a la hora de utilizarlo",
+        "precio":1200,
+        "off":5,
+        "stock":"Disponible en todos los locales de la ciudad",
+        "promedio":4.75
+    },
+    {
+        "src":"https://www.electromisiones.com.ar/13565-large_default/impresora_multifuncion_epson_ecotank_l3110.jpg",
+        "descripcion":"Impresora increible a la hora de imprimir buenas opciones",
+        "precio":500,
+        "off":15,
+        "stock":"Disponible en Palermo y Recoleta",
+        "promedio":4.03
+    },
+    {
+        "src":"https://www.electromisiones.com.ar/13565-large_default/impresora_multifuncion_epson_ecotank_l3110.jpg",
+        "descripcion":"Impresora increible a la hora de imprimir buenas opciones",
+        "precio":500,
+        "off":15,
+        "stock":"Disponible en Palermo y Recoleta",
+        "promedio":4.03
+    }
+]

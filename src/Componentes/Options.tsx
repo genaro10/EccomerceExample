@@ -1,6 +1,8 @@
 import { makeStyles,Grid, Button } from '@material-ui/core'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import CardVenta from './CardVenta'
+import Filters from './Filters' 
+import Data from '../Datos/Electronica.json'
 
 const styles = makeStyles({
     icono:{
@@ -19,11 +21,24 @@ const styles = makeStyles({
     bodyOpcion:{
         display:"flex",
         flexDirection:"column"
+    },
+    divFiltros:{
+        
+    },
+    divCard:{
+        width:"100%",
+        border:"1px solid grey",
+        marginLeft:"10px",
+        borderRadius:10
+    },
+    divResultado:{
+        display:"flex"
     }
 })
 
 function Options() {
     const estilos = styles()
+    const [data, setData] = useState(Data)
     return (
         <div style={{backgroundColor:"white",marginTop:"15px"}}>
             <Grid container>
@@ -123,19 +138,28 @@ function Options() {
                         </div>
                     </Button>
                 </Grid>
-            </Grid> 
-            <Grid container> 
-                <Grid item xs={12} sm={3} md={3} lg={3} xl={3} style={{backgroundColor:"white"}}>
-                    <CardVenta 
-                    src="https://http2.mlstatic.com/D_NQ_NP_827577-MLA41972656297_052020-O.jpg"
-                    descripcion="Impresora laser de gran estado para imprimir realmente buenas cosas"
-                    precio={42.50}
-                    off={32}
-                    stock="Disponiblep ara comprar en donde quieras a la hora que quieras"
-                    promedio={4.05}
-                    />
-                </Grid>
             </Grid>
+            <div className={estilos.divResultado}>
+                <div className={estilos.divFiltros}>
+                    <Filters/>
+                </div>
+                <div className={estilos.divCard}>
+                    <Grid container>
+                        {data.map(mapeo=>(
+                            <Grid item xs={12} sm={3} md={3} lg={3} xl={3} style={{backgroundColor:"white"}}>
+                            <CardVenta 
+                            src={mapeo.src}
+                            descripcion={mapeo.descripcion}
+                            precio={mapeo.precio}
+                            off={mapeo.off}
+                            stock={mapeo.stock}
+                            promedio={mapeo.promedio}
+                            />
+                        </Grid>
+                        ))} 
+                    </Grid>
+                </div>
+            </div>
         </div>
     )
 }
